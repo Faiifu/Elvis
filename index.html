@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="homescreen.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="homescreen.png">
+    <link rel="apple-touch-icon" href="homescreen.png">
+    <meta name="apple-mobile-web-app-title" content="Elvis">
+
+    <title>Elvis</title>
+</head>
+
+<body>
+    <nav>Elective Subject KMITL</nav>
+    <div class="container">
+        <br>
+        <img src="logo.png">
+        <br>
+        <div class="row elective-select">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <form>
+                    <div class="form-group">
+                        <label class="elective-text">กลุ่มวิชาเลือก</label>
+                        <select name="" id="elective" class="form-control">
+                            <option value="1">วิชาเลือกทางสังคมศาสตร์</option>
+                            <option value="2">วิชาเลือกทางภาษา</option>
+                            <option value="3">วิชาเลือกเสรี</option>
+                            <option value="4">วิชาเลือกกลุ่มภาษาและการสื่อสาร</option>
+                            <option value="5">วิชาเลือกกลุ่มศิลปแห่งการจัดการ</option>
+                            <option value="6">วิชาเลือกกลุ่มศาสตร์แห่งการคิด</option>
+                            <option value="7">วิชาเลือกกลุ่มวิถีแห่งสังคม</option>
+                            <option value="8">วิชาเลือกกลุ่มคุณค่าแห่งชีวิต</option>
+                            <option value="9">วิชาเลือกกลุ่มวิทยาศาสตร์และคณิตศาสตร์</option>
+                            <option value="10">วิชาเลือกตารางสอนรายวิชา</option>
+                            <option value="11">วิชาเลือกทางมนุษย์ศาสตร์</option>
+                            <option value="12">วิชาเลือกทางสาขา (คณะแพทย์ศาสตร์)</option>
+                        </select>
+                    </div>
+                </form>
+                <button class="submit sub-elec" onclick="myFunction()">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        var sel = document.getElementById('elective')
+        var val = sel.value
+        window.location.replace("social.html?fac=" + val);
+    }
+</script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+</html>

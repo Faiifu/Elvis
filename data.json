@@ -1,0 +1,900 @@
+{
+    "subject": {
+        "1": {
+            "name": "วิชาเลือกทางกลุ่มสังคมศาสตร์",
+            "90401003": {
+                "name": "ECONOMY AND LIVING",
+                "des": ""
+            },
+            "90401009": {
+                "name": "ECONOMICS FOR BUSINESS",
+                "des": ""
+            },
+            "90401011": {
+                "name": "ENTREPRENEURSHIP",
+                "des": ""
+            },
+            "90402011": {
+                "name": "ENGINEERING AND TECHNOLOGY LAWS",
+                "des": ""
+            },
+            "90401013": {
+                "name": "GENERAL BUSINESS",
+                "des": ""
+            },
+            "90401007": {
+                "name": "INTRODUCTION TO THAI ECONOMY",
+                "des": ""
+            },
+            "90401010": {
+                "name": "INTRODUCTION TO INVESTMENT",
+                "des": ""
+            },
+            "90401012": {
+                "name": "INTRODUCTION TO MARKETING",
+                "des": ""
+            },
+            "90402007": {
+                "name": "INTRODUCTION TO PRINCIPLES OF SOCIAL AND FAMILY RIGHTS",
+                "des": ""
+            },
+            "90402008": {
+                "name": "INTRODUCTION TO WORKING AND SOCIAL WELFARE",
+                "des": ""
+            },
+            "90402009": {
+                "name": "INTRODUCTION TO PRINCIPLES OF LAWS IN DAILY LIFE",
+                "des": ""
+            },
+            "90402010": {
+                "name": "INTRODUCTION TO THAI LAWS",
+                "des": ""
+            },
+            "90402012": {
+                "name": "INTRODUCTION TO ASEAN TRADE AND LABOR MARKET",
+                "des": ""
+            },
+            "90403007": {
+                "name": "LIVING IN SOCIETY",
+                "des": ""
+            },
+            "90403010": {
+                "name": "PUBLIC MANAGEMENT",
+                "des": ""
+            },
+            "90403012": {
+                "name": "SELF - EFFICIENCY AND CAREER MANAGEMENT",
+                "des": ""
+            },
+            "90402013": {
+                "name": "THAI INTELLECTUAL PROPERTY",
+                "des": ""
+            },
+            "90403008": {
+                "name": "THAI SOCIETY AND CULTURE",
+                "des": ""
+            },
+            "90403011": {
+                "name": "TECHNOLOGY MANAGEMENT IN DAILY LIFE",
+                "des": ""
+            }
+        },
+        "2": {
+            "name": "วิชาเลือกทางกลุ่มภาษา",
+            "90201037": {
+                "name": "BASIC ENGLISH PROUNUNCIATION",
+                "des": ""
+            },
+            "90201038": {
+                "name": "BASIC WRITING FOR PROFESSIONAL COMMUNICATION",
+                "des": ""
+            },
+            "90201033": {
+                "name": "COMMUNICATIVE ENGLISH GRAMMAR",
+                "des": ""
+            },
+            "90201012": {
+                "name": "DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH",
+                "des": ""
+            },
+            "90020008": {
+                "name": "ENGLISH FOR MARKETING",
+                "des": ""
+            },
+            "90201003": {
+                "name": "ENGLISH FOR ACADEMIC PURPOSES",
+                "des": ""
+            },
+            "90201013": {
+                "name": "ENGLISH FOR MANAGEMENT",
+                "des": ""
+            },
+            "90201016": {
+                "name": "ENGLISH FOR PROFESSIONAL COMMUNICATION",
+                "des": ""
+            },
+            "90201017": {
+                "name": "ENGLISH FOR BUSINESS",
+                "des": ""
+            },
+            "90201018": {
+                "name": "ENGLISH FOR COMMUNICATIVE WRITING",
+                "des": ""
+            },
+            "90201019": {
+                "name": "ENGLISH FOR DEVELOPING READING SKILLS",
+                "des": ""
+            },
+            "90201020": {
+                "name": "ENGLISH FOR INDUSTRY",
+                "des": ""
+            },
+            "90201022": {
+                "name": "ENGLISH FOR FURTHER STUDIES",
+                "des": ""
+            },
+            "90201024": {
+                "name": "ENGLISH FOR PROFESSIONAL PURPOSES",
+                "des": ""
+            },
+            "90201026": {
+                "name": "ENGLISH FOR COMMUNICATION",
+                "des": ""
+            },
+            "90201029": {
+                "name": "ENGLISH FOR TOURISM AND TRAVELLING",
+                "des": ""
+            },
+            "90201030": {
+                "name": "ENGLISH FOR PROFESSIONAL PRESENTATION",
+                "des": ""
+            },
+            "90201031": {
+                "name": "ENGLISH FOR INTERCULTURAL COMMUNICATION",
+                "des": ""
+            },
+            "90201032": {
+                "name": "ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA",
+                "des": ""
+            },
+            "90201036": {
+                "name": "ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING",
+                "des": ""
+            },
+            "90201039": {
+                "name": "ENGLISH FROM ENTERTAINMENT MEDIA",
+                "des": ""
+            },
+            "90201001": {
+                "name": "FOUNDATION ENGLISH 1",
+                "des": ""
+            },
+            "17616006": {
+                "name": "LIVING WITH MICROBES",
+                "des": ""
+            },
+            "90201040": {
+                "name": "ORAL ENGLISH COMMUNICATION AT WORK",
+                "des": ""
+            },
+            "90201035": {
+                "name": "WRITING AND SPEAKING IN THE PROFESSIONS",
+                "des": ""
+            }
+        },
+        "3": {
+            "name": "วิชาเลือกเสรี",
+            "02216714": {
+                "name": "BAMBOO ARCHITECTURE",
+                "des": ""
+            },
+            "90591912": {
+                "name": "BADMINTON",
+                "des": ""
+            },
+            "03076002": {
+                "name": "CONSUMER BEHAVIOR",
+                "des": ""
+            },
+            "16166208": {
+                "name": "CHINESE CONVERSATION",
+                "des": ""
+            },
+            "16166210": {
+                "name": "CHINESE FOR TOUR GUIDES",
+                "des": ""
+            },
+            "14026334": {
+                "name": "DIGITAL MARKETING FOR STARTUP BUSINESS",
+                "des": ""
+            },
+            "01006522": {
+                "name": "ENGLISH FOR SCIENCE AND TECHNOLOGY",
+                "des": ""
+            },
+            "14026333": {
+                "name": "ENTERPRENEURSHIP IN STARTUP BUSINESS",
+                "des": ""
+            },
+            "16166206": {
+                "name": "ELEMENTARY CHINESE 1",
+                "des": ""
+            },
+            "03506183": {
+                "name": "FUNDAMENTAL DESIGN",
+                "des": ""
+            },
+            "16166315": {
+                "name": "FENG SHUI FOR BUSINESS AND ACCOMODATION",
+                "des": ""
+            },
+            "03076004": {
+                "name": "HUMAN RESOURCE MANAGEMENT",
+                "des": ""
+            },
+            "90591016": {
+                "name": "HAPPINESS SKILLS",
+                "des": ""
+            },
+            "01026478": {
+                "name": "INDUSTRIAL SAFETY",
+                "des": ""
+            },
+            "02216715": {
+                "name": "IDEOLOGIES AND METHODS IN THAI ARCHITECTURE SPACE",
+                "des": ""
+            },
+            "03456216": {
+                "name": "INDIVIDUAL STUDY",
+                "des": ""
+            },
+            "14026708": {
+                "name": "INDUSTRIAL MARKETING",
+                "des": ""
+            },
+            "90401012": {
+                "name": "INTRODUCTION TO MARKETING",
+                "des": ""
+            },
+            "90591003": {
+                "name": "IMMUNITY OF MIND",
+                "des": ""
+            },
+            "03456227": {
+                "name": "LOCAL WISDOM FOR DESIGN",
+                "des": ""
+            },
+            "17616006": {
+                "name": "LIVING WITH MICROBES",
+                "des": ""
+            },
+            "90306003": {
+                "name": "LIVING SKILLS",
+                "des": ""
+            },
+            "03076304": {
+                "name": "MARKETING MANAGEMENT",
+                "des": ""
+            },
+            "14026501": {
+                "name": "MARKETING PLANNING AND MANAGEMENT",
+                "des": ""
+            },
+            "03076001": {
+                "name": "PRINCIPLES OF MARKETING",
+                "des": ""
+            },
+            "03076006": {
+                "name": "PRINCIPLES OF ACCOUNTING",
+                "des": ""
+            },
+            "90592020": {
+                "name": "PATH TO CAREER",
+                "des": ""
+            },
+            "90403012": {
+                "name": "SELF-EFFICIENCY AND CAREER MANAGEMENT",
+                "des": ""
+            },
+            "03206099": {
+                "name": "TECHNOLOGY PHOTOGRAPHY",
+                "des": ""
+            },
+            "03506133": {
+                "name": "TECHNOLOGY OF INDIGENOUS CRAFT DESIGN",
+                "des": ""
+            }
+        },
+        "4": {
+            "name": "วิชาเลือกกลุ่มภาษาและการสื่อสาร",
+            "90595033": {
+                "name": "CHINESE FOR TRAVEL",
+                "des": ""
+            },
+            "90595039": {
+                "name": "CHINESE GRAMMAR AND IDIOMS AND PROVERBS",
+                "des": ""
+            },
+            "90595004": {
+                "name": "DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH",
+                "des": ""
+            },
+            "90595002": {
+                "name": "ENGLISH FOR COMMUNICATION",
+                "des": ""
+            },
+            "90595003": {
+                "name": "ENGLISH FOR ACADEMIC PURPOSES",
+                "des": ""
+            },
+            "90595007": {
+                "name": "ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING",
+                "des": ""
+            },
+            "90595009": {
+                "name": "ENGLISH FOR TOURISM AND TRAVELLING",
+                "des": ""
+            },
+            "90595010": {
+                "name": "ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA",
+                "des": ""
+            },
+            "90595011": {
+                "name": "ENGLISH FOR WORK PREPARATION",
+                "des": ""
+            },
+            "90595012": {
+                "name": "ENGLISH FOR PROFESSIONAL COMMUNICATION",
+                "des": ""
+            },
+            "90595013": {
+                "name": "ENGLISH FOR MANAGEMENT",
+                "des": ""
+            },
+            "90595014": {
+                "name": "ENGLISH FOR BUSINESS",
+                "des": ""
+            },
+            "90595015": {
+                "name": "ENGLISH FOR MARKETING",
+                "des": ""
+            },
+            "90595016": {
+                "name": "ENGLISH FOR INDUSTRY",
+                "des": ""
+            },
+            "90595018": {
+                "name": "ENGLISH FOR PROFESSIONAL PRESENTATION",
+                "des": ""
+            },
+            "90595019": {
+                "name": "ENGLISH FOR COMMUNICATIVE WRITING",
+                "des": ""
+            },
+            "90595027": {
+                "name": "ENGLISH FOR PUBLIC RELATIONS",
+                "des": ""
+            },
+            "90595001": {
+                "name": "FOUNDATION ENGLISH",
+                "des": ""
+            },
+            "90595037": {
+                "name": "FOUNDATION CHINESE",
+                "des": ""
+            },
+            "90591016": {
+                "name": "HAPPINESS SKILLS",
+                "des": ""
+            },
+            "90591003": {
+                "name": "IMMUNITY OF MIND",
+                "des": ""
+            },
+            "90595022": {
+                "name": "LISTENING AND READING FOR IMPROVING LIFE QUALITY",
+                "des": ""
+            },
+            "17626175": {
+                "name": "MEDICINE AND LITERATURE",
+                "des": ""
+            },
+            "90592020": {
+                "name": "PATH TO CAREER",
+                "des": ""
+            },
+            "90595020": {
+                "name": "THE BEST SPEECH",
+                "des": ""
+            },
+            "90595005": {
+                "name": "WRITING AND SPEAKING IN THE PROFESSIONS",
+                "des": ""
+            }
+        },
+        "5": {
+            "name": "วิชาเลือกกลุ่มศิลปแห่งการจัดการ",
+            "90594013": {
+                "name": "FUN WITH ONLINE BUSINESS",
+                "des": ""
+            },
+            "90594004": {
+                "name": "INVESTMENT PLANNING",
+                "des": ""
+            },
+            "90594017": {
+                "name": "INTERNATIONAL BUSINESS",
+                "des": ""
+            },
+            "90594009": {
+                "name": "KNOWLEDGE MANAGEMENT FOR INNOVATION DEVELOPMENT",
+                "des": ""
+            },
+            "90594006": {
+                "name": "LAW FOR NEW GENERATION",
+                "des": ""
+            },
+            "90594001": {
+                "name": "MODERN ENTREPRENEURS",
+                "des": ""
+            },
+            "90594003": {
+                "name": "MODERN MANAGEMENT AND LEADERSHIP",
+                "des": ""
+            },
+            "90594011": {
+                "name": "REBRANDING",
+                "des": ""
+            },
+            "90594002": {
+                "name": "SOCIAL ENTREPRENEURS",
+                "des": ""
+            },
+            "90594005": {
+                "name": "SCIENCE OF NEGOTIATION",
+                "des": ""
+            },
+            "90594010": {
+                "name": "TEAMWORK",
+                "des": ""
+            }
+        },
+        "6": {
+            "name": "วิชาเลือกกลุ่มศาสตร์แห่งการคิด",
+            "90593019": {
+                "name": "DIGITAL STORY TELLING IN JOURNEY",
+                "des": ""
+            },
+            "90593015": {
+                "name": "FUN WITH AI",
+                "des": ""
+            },
+            "90593017": {
+                "name": "FUN WITH DRUGS AND HERBS",
+                "des": ""
+            },
+            "90593001": {
+                "name": "INTEGRATED THINKING",
+                "des": ""
+            },
+            "90593005": {
+                "name": "INNOVATION UNBOXED",
+                "des": ""
+            },
+            "90593009": {
+                "name": "IMMUNITY THROUGH MEDIA",
+                "des": ""
+            },
+            "90593016": {
+                "name": "INFOGRAPHIC DESIGN",
+                "des": ""
+            },
+            "90593006": {
+                "name": "MAN MONEY & MATH",
+                "des": ""
+            },
+            "90593011": {
+                "name": "QUICK-FIX at HOME",
+                "des": ""
+            },
+            "90593003": {
+                "name": "SUSTAINABLE ENERGY",
+                "des": ""
+            },
+            "90593007": {
+                "name": "SERIES IN DAILY LIFE",
+                "des": ""
+            },
+            "90593010": {
+                "name": "SMART FARMING",
+                "des": ""
+            },
+            "90593002": {
+                "name": "THINK EARTH",
+                "des": ""
+            }
+        },
+        "7": {
+            "name": "วิชาเลือกกลุ่มวิถีแห่งสังคม",
+            "90592003": {
+                "name": "APPLIED THAI WISDOMS",
+                "des": ""
+            },
+            "90592009": {
+                "name": "ASEAN STUDY",
+                "des": ""
+            },
+            "90592019": {
+                "name": "ALTERNATIVE TOURISM",
+                "des": ""
+            },
+            "90592004": {
+                "name": "CONTEMPORARY CULTURE",
+                "des": ""
+            },
+            "90592011": {
+                "name": "CIVIC EDUCATION",
+                "des": ""
+            },
+            "90592025": {
+                "name": "CHINESE SOCIETY ECONOMY AND POLITICS",
+                "des": ""
+            },
+            "90592031": {
+                "name": "KOREAN FANCLUB",
+                "des": ""
+            },
+            "90592014": {
+                "name": "MILITARY SCIENCE",
+                "des": ""
+            },
+            "90592013": {
+                "name": "NATIONAL SECURITY DEVELOPMENT",
+                "des": ""
+            },
+            "90592010": {
+                "name": "PLEASANT COMMUNITY",
+                "des": ""
+            },
+            "90592020": {
+                "name": "PATH TO CAREER",
+                "des": ""
+            },
+            "90592001": {
+                "name": "WORLD SOCIETY AWARENESS",
+                "des": ""
+            },
+            "90592007": {
+                "name": "THE PHILOSOPHY OF SUFFICIENCY ECONOMY",
+                "des": ""
+            },
+            "90592022": {
+                "name": "THAI ASTROLOGY",
+                "des": ""
+            },
+            "90592026": {
+                "name": "TRADITIONAL CHINESE CULTURE",
+                "des": ""
+            },
+            "90592008": {
+                "name": "TODAY'S THAI SOCIETY",
+                "des": ""
+            }
+        },
+        "8": {
+            "name": "วิชาเลือกกลุ่มคุณค่าแห่งชีวิต",
+            "90591004": {
+                "name": "ARTS OF EMOTION DEVELOPMENT",
+                "des": ""
+            },
+            "90591005": {
+                "name": "DESIGNING YOUR LIFE",
+                "des": ""
+            },
+            "90591025": {
+                "name": "ECO-TOURISM",
+                "des": ""
+            },
+            "90591012": {
+                "name": "FILM APPRECIATION",
+                "des": ""
+            },
+            "90591017": {
+                "name": "FAIL-ABLE",
+                "des": ""
+            },
+            "17636004": {
+                "name": "FUNDAMENTALS OF MUSIC THERAPY",
+                "des": ""
+            },
+            "90591007": {
+                "name": "HOLISTIC HEALTH DEVELOPMENT",
+                "des": ""
+            },
+            "90591016": {
+                "name": "HAPPINESS SKILLS",
+                "des": ""
+            },
+            "90591011": {
+                "name": "IMAGINATIVE ART",
+                "des": ""
+            },
+            "90591015": {
+                "name": "JOY OF SHARING",
+                "des": ""
+            },
+            "90591009": {
+                "name": "MEDITATION FOR LIFE DEVELOPMENT",
+                "des": ""
+            },
+            "90591010": {
+                "name": "MUSIC APPRECIATION",
+                "des": ""
+            },
+            "90591006": {
+                "name": "POWER OF PERSONALITY",
+                "des": ""
+            },
+            "90591008": {
+                "name": "PHOTOGRAPHY APPRECIATION",
+                "des": ""
+            },
+            "90591014": {
+                "name": "POWER OF CHANGE",
+                "des": ""
+            },
+            "17646004": {
+                "name": "SELF-DISCOVERY",
+                "des": ""
+            }
+        },
+        "9": {
+            "name": "วิชาเลือกกลุ่มวิทยาศาสตร์และคณิตศาสตร์",
+            "17616004": {
+                "name": "BIOTECHNOLOGY FOR BETTER LIVING",
+                "des": ""
+            },
+            "90105002": {
+                "name": "CHEMICALS FOR DAILY LIFE",
+                "des": ""
+            },
+            "90104009": {
+                "name": "ENVIRONMENT AND NATURAL RESOURCES CONSERVATION",
+                "des": ""
+            },
+            "90106003": {
+                "name": "EARTH AND UNIVERSE",
+                "des": ""
+            },
+            "90108007": {
+                "name": "ENVIRONMENTAL STUDY",
+                "des": ""
+            },
+            "90104007": {
+                "name": "FOOD SCIENCE IN DAILY LIFE",
+                "des": ""
+            },
+            "90104003": {
+                "name": "HEALTH AND NUTRITION",
+                "des": ""
+            },
+            "90104010": {
+                "name": "HOME GARDEN MANAGEMENT",
+                "des": ""
+            },
+            "90106002": {
+                "name": "HUMAN AND ENERGY",
+                "des": ""
+            },
+            "90101007": {
+                "name": "INTRODUCTION TO MATHEMATICAL ECONOMICS",
+                "des": ""
+            },
+            "90104006": {
+                "name": "INTRODUCTION TO FOOD NUTRITION",
+                "des": ""
+            },
+            "17616006": {
+                "name": "LIVING WITH MICROBES",
+                "des": ""
+            },
+            "90108003": {
+                "name": "LIFE AND ENVIRONMEN",
+                "des": ""
+            },
+            "17616005": {
+                "name": "MEDICINAL PLANTS",
+                "des": ""
+            },
+            "90101002": {
+                "name": "MATHEMATICS IN DAILY LIFE",
+                "des": ""
+            },
+            "90101008": {
+                "name": "MATHEMATICS IN BUSINESS AND INDUSTRY",
+                "des": ""
+            },
+            "90101009": {
+                "name": "MATHEMATICS FOR CONSUMERS",
+                "des": ""
+            },
+            "90104012": {
+                "name": "NANOTECHNOLOGY INNOVATIONS",
+                "des": ""
+            },
+            "90104008": {
+                "name": "PERSONAL AND COMMUNITY HYGIENE",
+                "des": ""
+            },
+            "90106001": {
+                "name": "PHYSICS FOR DAILY LIFE",
+                "des": ""
+            },
+            "90108005": {
+                "name": "RENEWABLE ENERGY TECHNOLOGIES",
+                "des": ""
+            },
+            "90101003": {
+                "name": "STATISTICS IN DAILY LIFE",
+                "des": ""
+            },
+            "90010007": {
+                "name": "THAI GEOSOCIAL DESIGN",
+                "des": ""
+            }
+        },
+        "10": {
+            "name": "วิชาเลือกตารางสอนรายวิชา",
+            "90591019": {
+                "name": "CHARM SCHOOL",
+                "des": ""
+            },
+            "90201012": {
+                "name": "DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH",
+                "des": ""
+            },
+            "90595003": {
+                "name": "ENGLISH FOR ACADEMIC PURPOSES",
+                "des": ""
+            },
+            "90201026": {
+                "name": "ENGLISH FOR COMMUNICATION",
+                "des": ""
+            },
+            "90201001": {
+                "name": "FOUNDATION ENGLISH 1",
+                "des": ""
+            },
+            "90201002": {
+                "name": "FOUNDATION ENGLISH 2",
+                "des": ""
+            },
+            "90595001": {
+                "name": "FOUNDATION ENGLISH",
+                "des": ""
+            },
+            "90401013": {
+                "name": "GENERAL BUSINESS",
+                "des": ""
+            },
+            "90591001": {
+                "name": "I LOVE KMITL",
+                "des": ""
+            },
+            "90201040": {
+                "name": "ORAL ENGLISH COMMUNICATION AT WORK",
+                "des": ""
+            },
+            "90591002": {
+                "name": "SPORTS AND RECREATIONAL ACTIVITIES",
+                "des": ""
+            },
+            "90201035": {
+                "name": "WRITING AND SPEAKING IN THE PROFESSIONS",
+                "des": ""
+            }
+        },
+        "11": {
+            "name": "วิชาเลือกทางมนุษย์ศาสตร์",
+            "90303011": {
+                "name": "ENHANCEMENT OF QUALITY OF LIFE",
+                "des": ""
+            },
+            "90301003": {
+                "name": "GENERAL PHILOSOPHY",
+                "des": ""
+            },
+            "90305004": {
+                "name": "GEOGRAPHY AND HISTORY FOR TOURISM",
+                "des": ""
+            },
+            "90302003": {
+                "name": "HUMAN RELATIONS",
+                "des": ""
+            },
+            "90303006": {
+                "name": "HEALTH MANAGEMENT",
+                "des": ""
+            },
+            "90303012": {
+                "name": "HOLISTIC HEALTH DEVELOPMENT",
+                "des": ""
+            },
+            "90305005": {
+                "name": "HUMAN AND TOURISM",
+                "des": ""
+            },
+            "90306007": {
+                "name": "HAPPINESS SKILLS",
+                "des": ""
+            },
+            "90302012": {
+                "name": "INDUSTRIAL BUSINESS PSYCHOLOGY",
+                "des": ""
+            },
+            "90306006": {
+                "name": "KNOWLEDGE MANAGEMENT",
+                "des": ""
+            },
+            "90304001": {
+                "name": "LIBRARY USAGE AND INFORMATION",
+                "des": ""
+            },
+            "90306003": {
+                "name": "LIVING SKILLS",
+                "des": ""
+            },
+            "90306004": {
+                "name": "LOVING FAMILY",
+                "des": ""
+            },
+            "90307004": {
+                "name": "LANGUAGE IN THAI SOCIETY",
+                "des": ""
+            },
+            "90307005": {
+                "name": "LISTENING AND READING FOR IMPROVING LIFE QUALITY",
+                "des": ""
+            },
+            "90307008": {
+                "name": "LANGUAGE FOR MASS MEDIA",
+                "des": ""
+            },
+            "90306008": {
+                "name": "MEDITATION FOR LIFE DEVELOPMENT",
+                "des": ""
+            },
+            "90302011": {
+                "name": "PSYCHOLOGY OF THINKING",
+                "des": ""
+            },
+            "90302013": {
+                "name": "PERSONALITY AND MENTAL HEALTH DEVELOPMENT",
+                "des": ""
+            },
+            "90305001": {
+                "name": "THAI CIVILIZATION",
+                "des": ""
+            },
+            "90307001": {
+                "name": "THAI USAGE FOR COMMUNICATION",
+                "des": ""
+            },
+            "90304004": {
+                "name": "REPORT WRITING",
+                "des": ""
+            }
+        },
+        "12": {
+            "name": "วิชาเลือกทางสาขา (คณะแพทย์ศาสตร์)",
+            "17616006": {
+                "name": "LIVING WITH MICROBES",
+                "des": ""
+            },
+            "17646004": {
+                "name": "SELF-DISCOVERY",
+                "des": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="homescreen.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="homescreen.png">
+    <link rel="apple-touch-icon" href="homescreen.png">
+    <meta name="apple-mobile-web-app-title" content="Elvis">
+
+    <title>Elective Subject KMITL</title>
+</head>
+
+<body>
+    <nav>Elective Subject KMITL</nav>
+    <br>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div>
+                <a href="index.html"><img src="back.png" class="back"></a>
+            </div>
+            <div class="write">
+                <button type="button" class="btn btn-warning" onclick="chang()">Review wirte</button>
+            </div>
+        </div>
+        <br>
+        <h4 id="name_elec"></h4>
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table" id="elective_table">
+                    <tr>
+                        <th>รหัสวิชา</th>
+                        <th>ชื่อวิชา</th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const page_type = urlParams.get('fac')
+    console.log(page_type);
+
+    $(document).ready(function() {
+        $.getJSON("elective.json", function(data) {
+            var elective_data = '';
+            $.each(data, function(key, value) {
+                document.getElementById("name_elec").innerHTML = value[page_type].name;
+                for (let i = 0; i < value[page_type].Subject.length; i++) {
+                    elective_data += '<tr onclick="myFunction2(' + value[page_type].Subject[i].slice(0, 8) + ')">';
+                    elective_data += '<td class="sub">' + value[page_type].Subject[i].slice(0, 8); + '<td>';
+                    elective_data += '<td class="sub">' + value[page_type].Subject[i].slice(8); + '<td>';
+                }
+
+            });
+            $('#elective_table').append(elective_data);
+        });
+    });
+</script>
+
+<script>
+    function myFunction2(id) {
+        window.location.replace("review.html?fac=" + page_type + "&sub=" + id);
+    }
+
+    function chang() {
+        window.location.replace("write.html?fac=");
+    }
+</script>
+
+</html>

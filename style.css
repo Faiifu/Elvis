@@ -1,0 +1,82 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+nav {
+    background-color: #253F70;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: .3em;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 12%;
+}
+
+.elective-text {
+    font-size: 18px;
+}
+
+.sub-elec {
+    background: #253F70;
+    border-radius: .3em;
+    font-size: 1rem;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.back {
+    width: 50px;
+    padding-left: 1em;
+}
+
+
+/* social.html */
+
+.btn-elec {
+    height: 20px;
+}
+
+.write {
+    padding-right: 1em;
+}
+
+.sub {
+    cursor: pointer;
+}
+
+.write_go:link,
+.write_go:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* review.html */
+
+#description {
+    margin-top: 1em;
+    text-indent: 2.5em;
+}
+
+.review-text {
+    margin-top: 2em;
+    font-size: 16px;
+}
+
+#name_subject {
+    padding: 1em;
+}
+
+
+/* write */
+
+.success {
+    font-size: 16px;
+}

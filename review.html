@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="homescreen.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="homescreen.png">
+    <link rel="apple-touch-icon" href="homescreen.png">
+    <meta name="apple-mobile-web-app-title" content="Elvis">
+
+    <title>Elective Subject KMITL</title>
+</head>
+
+<body>
+    <nav>Elective Subject KMITL</nav>
+    <br>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div>
+                <img src="back.png" class="back" id="undo" onclick="page()">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <h5 id="name_subject"></h5>
+                </div>
+                <div class="row">
+                    <label id="description"></label>
+                </div>
+                <div class="row" id="out">
+                </div>
+            </div>
+        </div>
+</body>
+
+<!-- firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAxfjxdVMFejmseFE6b9bRnm1y5Aw-7qVU",
+        authDomain: "elective-subject-kmitl-9cfc0.firebaseapp.com",
+        databaseURL: "https://elective-subject-kmitl-9cfc0.firebaseio.com",
+        projectId: "elective-subject-kmitl-9cfc0",
+        storageBucket: "elective-subject-kmitl-9cfc0.appspot.com",
+        messagingSenderId: "516472151975",
+        appId: "1:516472151975:web:a294dea4000d14198f2082",
+        measurementId: "G-YV46E86WD1"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    //firestore
+    const db = firebase.firestore()
+</script>
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const fac_type = urlParams.get('fac');
+    const sub_type = urlParams.get('sub');
+
+    $(document).ready(function() {
+        $.getJSON("data.json", function(data) {
+            var elective_data = '';
+            console.log(data.subject[fac_type][sub_type]);
+            document.getElementById("name_subject").innerHTML = data.subject[fac_type][sub_type].name;
+            document.getElementById("description").innerHTML = data.subject[fac_type][sub_type].des;
+            $('#elective_table').append(elective_data);
+        });
+    });
+
+    db.collection('store').get().then(snapshot => {
+        snapshot.forEach(doc => {
+            if (sub_type == doc.data().subject) {
+                var node_card = document.createElement("div");
+                var node_p = document.createElement("p");
+                var node_card_big = document.createElement("div")
+                var node_label_year = document.createElement("label");
+                var node_label_term = document.createElement("label");
+                var node_label_review = document.createElement("p");
+                node_label_year.innerHTML = "ปีการศึกษา " + doc.data().year;
+                node_label_term.innerHTML = "&nbsp; ภาคเรียนที่ " + doc.data().term;
+                node_label_review.innerHTML = "&nbsp;&nbsp;&nbsp;" + doc.data().review;
+                node_card_big.className = "col-sm-12 card review-text"
+                node_card.className = "card-body";
+                node_p.className = "card-text";
+                node_p.appendChild(node_label_year);
+                node_p.appendChild(node_label_term);
+                node_p.appendChild(node_label_review);
+                node_card.appendChild(node_p);
+                node_card_big.appendChild(node_card);
+                document.getElementById('out').appendChild(node_card_big);
+            }
+        });
+    });
+</script>
+
+<script>
+    function page() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const page_type = urlParams.get('fac')
+        var sel = document.getElementById('undo')
+        var val = sel.value
+        window.location.replace("social.html?fac=" + page_type);
+    }
+</script>
